@@ -11,13 +11,13 @@ This repository explores optimizing sequence models like **RNN, LSTM, and GRU** 
 ```
 📁 Sequence-Models-TinyML/
 |──SmartPhone Based HAR
-    │── 📂 Rawdata/           # Unprocessed raw data from accelerometer and gyroscope  
-    │── 📂 trained_models/            # Trained models (RNN, LSTM, GRU)  
-    │── 📂 notebooks/         # Jupyter Notebooks for experiments  
-    │── 📂 scripts/           # Python scripts for training & evaluation  
-    │── 📝 README.md          # This file  
-    │── 📄 requirements.txt   # Dependencies  
-    │── 📄 training_history/  # Saved history of trained models  
+    │── 📂 Notebooks/           # All ipynb files created in this project
+    │── 📂 Rawdata/             # Unprocessed raw data from accelerometer and gyroscope  
+    │── 📂 trained_models/      # Trained models (RNN, LSTM, GRU)  
+    │── 📂 training_evaluation/ # Training Details of Models in pictorial representation 
+    │── 📂 training_history/    # Training History of Models saved for future purposes 
+    │── 📂 usable_raw_data/ # Raw data transformed into trainable format for the project 
+    │── 📝 README.md            # This file    
 ```
 As the project progresses, we will:<br>
 ✅ Compare RNN, LSTM, and GRU on benchmark datasets.<br>
